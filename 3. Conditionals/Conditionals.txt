@@ -1,0 +1,63 @@
+Conditional statements in Java are the executable block of code (or branch to a specific code) dependent on certain conditions. These statements are also known as decision statements or selection statements in Java.
+
+here we will learn:
+if, else
+else if
+ternary operator
+switch
+
+
+Syntax of if else:
+Syntax 1:
+if (condition) {
+
+}
+else {
+    
+}
+----------------------------------------------------------------
+Syntax 2:
+if (condition) {
+
+}
+if (condition 2) {
+
+}
+else {
+        
+}
+----------------------------------------------------------------
+Syntax 3:
+if (condition) {
+
+}
+else if (condition 2) {
+
+}
+else {
+        
+}
+
+Notes: if we write 2 if conditions or more, then every if condition is evaluated and in case of
+else if , if the first if become true then second condition of else if or else is not evaluated.
+
+---------------------------------------------------------------
+ternary operator - it is a alternative way of writing the if else in java
+variable = condition ? statement 1: statement 2; - jo bhi statement true hogi bahi execute hogi.
+eg:  int large = (5 > 3) ? 5 : 3;  - yaha par 5 large variable me store ho jaega because statement 1 is true
+eg2: String type = (5 % 2 == 0) ? "even" : "odd";  - yaha par odd aaega type variable me
+
+---------------------------------------------------------------
+switch statements - The Java switch statement executes one statement from multiple conditions. It is like if-else-if ladder statement. The switch statement works with byte, short, int, long, enum types, String and some wrapper types like Byte, Short, Int, and Long. Since Java 7, you can use strings in the switch statement.
+
+syntax:
+
+switch (variable) {
+    case 1:
+
+    case 2:
+
+    case 3:
+    
+    default:
+}
